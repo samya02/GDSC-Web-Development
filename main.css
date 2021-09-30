@@ -1,0 +1,141 @@
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+
+#font {
+    color: white
+}
+
+#design {
+    background-color: #bfc4cc;
+    width: 33%;
+    height: 55%;
+    margin-top: 49px
+}
+
+#position {
+    padding: 15px;
+    background-color: #3c71c1
+}
+
+#font {
+    font-size: smaller;
+    margin-left: 17px;
+    margin-top: -17px;
+    font-family: initial;
+}
+
+#login {
+    margin-left: 15px;
+    font-family: sans-serif
+}
+
+#data {
+    background-color: #3c71c1;
+}
+
+#align {
+    margin-left: 50px;
+    margin-top: 39px;
+}
+
+#elabel {
+    margin-left: 20px;
+    font-size: smaller
+}
+
+#plabel {
+    font-size: smaller
+}
+
+#email {
+    margin-left: 3px;
+    padding: 10px;
+    color: white;
+    background-color: #11336b;
+    border-color: #0a2651;
+}
+
+#password {
+    padding: 9px;
+    margin-left: 5px;
+    color: white;
+    background-color: #11336b;
+    border-color: #0a2651;
+}
+
+#box {
+    margin-left: 66px;
+    margin-top: 8px
+}
+
+#under {
+    font-size: small;
+    margin-left: 167px;
+    margin-top: -30px
+}
+
+#submit {
+    padding: 12px;
+    width: 92px;
+    margin-left: 65px;
+    color: white;
+    background-color: #7aa6e8;
+    border-color: #7aa6e8
+}
+
+#remember {
+    font-size: small;
+    margin-left: 80px;
+    margin-top: -17px
+}
+
+
+#disclaimer {
+color: black;
+}
+.disclaimer p {
+  text-align:center;
+  }
+  
+ 

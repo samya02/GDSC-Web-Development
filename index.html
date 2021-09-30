@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>First Assignment</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="font">
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    <center>
+        <table border="2" id="design">
+            <tr>
+                <td id="position">
+                    <center>
+                        <h1 id="login">Login To Your Account</h1>
+                    </center>
+                    </p>
+
+
+                    <form id="formid" method="post" name="myform">
+                        <div id="align">
+                            <label id="elabel">Email :</label>
+                            <input type="email" name="femail" id="email" required />
+                            <br>
+                            <br>
+                            <label id="plabel">Password :</label>
+                            <input type="password" name="fpassword" id="password" />
+                            <br>
+                            <br>
+                            <input id="box" type="checkbox">
+                            <p id="remember">Remember me </p>
+                            <p id="under">
+                                <u>Forgot password?</u>
+                            </p><br>
+                            <input type="button" value="Login" id="submit" onclick="validate()" />
+                        </div>
+                    </form>
+
+                </td>
+            </tr>
+        </table>
+
+        <div id="disclaimer">
+            <p>
+                <i>Password must be minimum 8 characters long, with one alpha numeric values,.
+                    <br> one upper case letter and special characters(@ # $ & * ! %).</i>
+            </p>
+        </div>
+    </center>
+    <script src="main.js" async defer></script>
+</body>
+
+</html>
